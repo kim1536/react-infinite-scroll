@@ -9,7 +9,11 @@ export default {
     extend: {
       colors: {
         primary: '#00BCD4',
-      }
+      },
+      fontFamily: {
+        'BIZUDPGothic': ['BIZ UDPGothic', 'sans'],
+        'Inter': ['Inter', 'sans']
+      },
     },
   },
   plugins: [require('tailwind-scrollbar')],
